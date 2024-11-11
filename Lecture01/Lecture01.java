@@ -1,4 +1,4 @@
-package studyForMe;
+package studyForMe.Lecture01;
 
 import java.util.Scanner;
 
