@@ -3,7 +3,7 @@ package studyForMe.Lecture02;
 import java.util.Scanner;
 
 /**
- * 등수구하기
+ * 격자판 최대합
  */
 public class Lecture09 {
 
