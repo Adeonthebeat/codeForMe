@@ -15,7 +15,7 @@ public class Lecture11 {
         for(int i = 1; i <= n; i++) {
             int cnt = 0;
             for(int j = 1; j <= n; j++) {
-                for(int k = 1; k <= 5; k++) {
+                for(int k = 1; k <= 5; k++) { // 학년수
                     if(arr[i][k] == arr[j][k]) {
                         cnt += 1;
                         break;
