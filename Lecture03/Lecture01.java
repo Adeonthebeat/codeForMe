@@ -5,6 +5,9 @@ import studyForMe.Lecture01.Lecture02;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * 두 배열 합치기
+ */
 public class Lecture01 {
 
     public ArrayList<Integer> solution(int n, int[] arrA, int m, int[] arrB) {

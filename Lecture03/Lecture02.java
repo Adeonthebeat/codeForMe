@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 공통원소 구하기
+ */
 public class Lecture02 {
 
     public ArrayList<Integer> solution(int n, int[] arrA, int m, int[] arrB) {

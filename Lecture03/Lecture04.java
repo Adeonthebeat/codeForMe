@@ -2,6 +2,9 @@ package studyForMe.Lecture03;
 
 import java.util.Scanner;
 
+/**
+ * 연속부분수열
+ */
 public class Lecture04 {
 
     public int solution(int n, int m, int[] arr) {

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 최대매출
+ */
 public class Lecture03 {
 
     public int solution(int n, int k, int[] arr) {
