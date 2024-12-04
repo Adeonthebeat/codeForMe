@@ -3,31 +3,28 @@ package studyForMe.Lecture06;
 import java.util.Scanner;
 
 /**
- * 선택정렬
+ * 버블정렬
  */
-public class Lecture01 {
+public class Lecture02 {
 
     public int[] solution(int n, int[] arr) {
 
-       for(int i = 0; i < n-1; i++) {
-
-           // 가장 작은 값을 찾아서 첫번쨰값으로 위치
-           int idx = i;
-           for(int j = i+1; j < n; j++) {
-               if(arr[j] < arr[idx]) {
-                   idx = j;
-               }
-           }
-           int temp = arr[i];
-           arr[i] = arr[idx];
-           arr[idx] = temp;
-       }
+        // 한 회전내에서 많이 SWAP
+        for(int i = 0; i < n-1; i++) {
+            for(int j = 0; j < n-i-1; j++) {
+                if(arr[j] > arr[j+1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
 
         return arr;
     }
 
     public static void main(String[] args) {
-        Lecture01 main = new Lecture01();
+        Lecture02 main = new Lecture02();
         Scanner input = new Scanner(System.in);
 
         int n = input.nextInt();
@@ -41,6 +38,5 @@ public class Lecture01 {
         for(int x : main.solution(n, arr)) {
             System.out.print(x + " ");
         }
-
     }
 }
