@@ -2,6 +2,9 @@ package studyForMe.Lecture06;
 
 import java.util.Scanner;
 
+/**
+ * Least Recently Used
+ */
 public class Lecture04 {
 
     public int[] solution(int size, int n, int[] arr) {
